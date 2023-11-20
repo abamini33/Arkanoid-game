@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arkanoid Game</title>
+  <style>
+    canvas {
+      border: 1px solid #000;
+      display: block;
+      margin: 20px auto;
+    }
+
+    #gameInfo {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="gameInfo">
+    <p>Utilisez les touches fléchées gauche/droite pour déplacer le paddle</p>
+    <p>Appuyez sur Espace pour commencer ou mettre en pause</p>
+    <p>Vies: <span id="lives">3</span></p>
+  </div>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
